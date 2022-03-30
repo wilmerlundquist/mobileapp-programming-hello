@@ -1,9 +1,14 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+Assignment 1
+Ändrade namnet på appen till "WilmerAppen".
+Ändrade texten "Hello World" till "Welcome to WilmerAppen".
+Skapade en string i strings.xml-filen med namnet "hello_msg" och med texten "Welcome to WilmerAppen".
+La in string resursen "hello_msg" i content_main.xml där texten "Hello world" var. String resursen lades in med ""@string/hello_msg"
 
-_Du kan ta bort all text som finns sedan tidigare_.
+
+Assignment 2
 
 ## Följande grundsyn gäller dugga-svar:
 

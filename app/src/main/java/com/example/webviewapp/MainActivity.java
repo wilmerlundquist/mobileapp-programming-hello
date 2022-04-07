@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         // Enable Javascript to our WebViewClient
         myWebView.getSettings().setJavaScriptEnabled(true);
 
-        // Loading external url
+        // Load external url
         myWebView.loadUrl("https://scio.his.se");
 
         // Sets WebView element active

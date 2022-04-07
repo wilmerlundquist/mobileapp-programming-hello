@@ -9,7 +9,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     // Add a private member variabel
-    private String myWebView;
+    private WebView myWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        // Instantiate WebView
         WebView myWebView = (WebView) findViewById(R.id.my_webview);
+
+        // Enable Javascript to our WebViewClient
         myWebView.getSettings().setJavaScriptEnabled(true);
+
+        // Loading external url
+        myWebView.loadUrl("https://scio.his.se");
+
+        // Sets WebView element active
+        setContentView(myWebView);
     }
 }
